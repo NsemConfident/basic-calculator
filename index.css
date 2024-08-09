@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px; /* Optional: Adds spacing between items */
+}
+
+input[type="number"], 
+select, 
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px; /* Optional: Adds rounded corners */
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred; /* Optional: Change color on hover */
+}
